@@ -4,7 +4,7 @@ int main(){
     int a,n;
     std::cin>>a>>n;
 
-    for (int i=0;i<=n;i++){
+    for (int i=a;i<=n;i++){
         if((i%3)==0){
             std::cout<<"Foo"<<"\n";
         }
